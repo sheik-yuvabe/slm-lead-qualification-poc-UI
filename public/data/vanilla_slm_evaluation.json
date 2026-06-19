@@ -1,0 +1,1716 @@
+{
+  "summary": {
+    "total": 80,
+    "fit_score_accuracy": 0.9875,
+    "primary_service_accuracy": 0.65,
+    "acceptable_service_accuracy": 0.825,
+    "primary_matches": 52,
+    "alternative_matches": 14,
+    "mismatches": 14,
+    "missing_labels": 0
+  },
+  "by_industry": [
+    {
+      "industry": "Education",
+      "total": 10,
+      "fit_score_accuracy": 1.0,
+      "primary_service_accuracy": 0.4,
+      "acceptable_service_accuracy": 0.6,
+      "primary_matches": 4,
+      "alternative_matches": 2,
+      "mismatches": 4,
+      "missing_labels": 0
+    },
+    {
+      "industry": "Financial Services",
+      "total": 10,
+      "fit_score_accuracy": 1.0,
+      "primary_service_accuracy": 0.4,
+      "acceptable_service_accuracy": 1.0,
+      "primary_matches": 4,
+      "alternative_matches": 6,
+      "mismatches": 0,
+      "missing_labels": 0
+    },
+    {
+      "industry": "Healthcare",
+      "total": 10,
+      "fit_score_accuracy": 1.0,
+      "primary_service_accuracy": 0.4,
+      "acceptable_service_accuracy": 0.5,
+      "primary_matches": 4,
+      "alternative_matches": 1,
+      "mismatches": 5,
+      "missing_labels": 0
+    },
+    {
+      "industry": "Logistics",
+      "total": 10,
+      "fit_score_accuracy": 1.0,
+      "primary_service_accuracy": 0.8,
+      "acceptable_service_accuracy": 1.0,
+      "primary_matches": 8,
+      "alternative_matches": 2,
+      "mismatches": 0,
+      "missing_labels": 0
+    },
+    {
+      "industry": "Manufacturing",
+      "total": 10,
+      "fit_score_accuracy": 1.0,
+      "primary_service_accuracy": 0.9,
+      "acceptable_service_accuracy": 1.0,
+      "primary_matches": 9,
+      "alternative_matches": 1,
+      "mismatches": 0,
+      "missing_labels": 0
+    },
+    {
+      "industry": "Not a Good Fit",
+      "total": 10,
+      "fit_score_accuracy": 1.0,
+      "primary_service_accuracy": 1.0,
+      "acceptable_service_accuracy": 1.0,
+      "primary_matches": 10,
+      "alternative_matches": 0,
+      "mismatches": 0,
+      "missing_labels": 0
+    },
+    {
+      "industry": "Retail",
+      "total": 10,
+      "fit_score_accuracy": 0.9,
+      "primary_service_accuracy": 0.6,
+      "acceptable_service_accuracy": 0.7,
+      "primary_matches": 6,
+      "alternative_matches": 1,
+      "mismatches": 3,
+      "missing_labels": 0
+    },
+    {
+      "industry": "SaaS",
+      "total": 10,
+      "fit_score_accuracy": 1.0,
+      "primary_service_accuracy": 0.7,
+      "acceptable_service_accuracy": 0.8,
+      "primary_matches": 7,
+      "alternative_matches": 1,
+      "mismatches": 2,
+      "missing_labels": 0
+    }
+  ],
+  "service_match_breakdown": [
+    {
+      "match_type": "Primary Match",
+      "count": 52,
+      "percentage": 0.65
+    },
+    {
+      "match_type": "Alternative Match",
+      "count": 14,
+      "percentage": 0.175
+    },
+    {
+      "match_type": "Mismatch",
+      "count": 14,
+      "percentage": 0.175
+    }
+  ],
+  "fit_score_failures": [
+    {
+      "company_name": "Costco",
+      "industry": "Retail",
+      "company_file": "costco.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "Low",
+      "fit_score_match": false,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    }
+  ],
+  "service_mismatches": [
+    {
+      "company_name": "Atlassian",
+      "industry": "SaaS",
+      "company_file": "atlassian.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Coursera",
+      "industry": "Education",
+      "company_file": "coursera.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Duolingo",
+      "industry": "Education",
+      "company_file": "duolingo.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "HCA Healthcare",
+      "industry": "Healthcare",
+      "company_file": "hca_healthcare.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Home Depot",
+      "industry": "Retail",
+      "company_file": "home_depot.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Instructure",
+      "industry": "Education",
+      "company_file": "instructure.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Kaiser Permanente",
+      "industry": "Healthcare",
+      "company_file": "kaiser_permanente.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Macy's",
+      "industry": "Retail",
+      "company_file": "macy_s.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Mayo Clinic",
+      "industry": "Healthcare",
+      "company_file": "mayo_clinic.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Pfizer",
+      "industry": "Healthcare",
+      "company_file": "pfizer.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Document Processing",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Shopify",
+      "industry": "SaaS",
+      "company_file": "shopify.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Target",
+      "industry": "Retail",
+      "company_file": "target.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Teladoc Health",
+      "industry": "Healthcare",
+      "company_file": "teladoc_health.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Document Processing"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Udemy",
+      "industry": "Education",
+      "company_file": "udemy.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    }
+  ],
+  "negative_example_summary": {
+    "total": 10,
+    "correct_not_good_fit": 10,
+    "accuracy": 1.0,
+    "failures": []
+  },
+  "evaluations": [
+    {
+      "company_name": "2U",
+      "industry": "Education",
+      "company_file": "2u.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "3M",
+      "industry": "Manufacturing",
+      "company_file": "3m.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Accenture",
+      "industry": "Not a Good Fit",
+      "company_file": "accenture.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "American Express",
+      "industry": "Financial Services",
+      "company_file": "american_express.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Document Processing",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Anthropic",
+      "industry": "Not a Good Fit",
+      "company_file": "anthropic.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Asana",
+      "industry": "SaaS",
+      "company_file": "asana.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Atlassian",
+      "industry": "SaaS",
+      "company_file": "atlassian.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Berkshire Hathaway",
+      "industry": "Not a Good Fit",
+      "company_file": "berkshire_hathaway.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Best Buy",
+      "industry": "Retail",
+      "company_file": "best_buy.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Blackstone",
+      "industry": "Not a Good Fit",
+      "company_file": "blackstone.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Block",
+      "industry": "Financial Services",
+      "company_file": "block.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Bosch",
+      "industry": "Manufacturing",
+      "company_file": "bosch.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "C.H. Robinson",
+      "industry": "Logistics",
+      "company_file": "c_h_robinson.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Caterpillar",
+      "industry": "Manufacturing",
+      "company_file": "caterpillar.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Chegg",
+      "industry": "Education",
+      "company_file": "chegg.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Chime",
+      "industry": "Financial Services",
+      "company_file": "chime.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Cleveland Clinic",
+      "industry": "Healthcare",
+      "company_file": "cleveland_clinic.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Cognizant",
+      "industry": "Not a Good Fit",
+      "company_file": "cognizant.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Coinbase",
+      "industry": "Financial Services",
+      "company_file": "coinbase.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Document Processing",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Costco",
+      "industry": "Retail",
+      "company_file": "costco.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "Low",
+      "fit_score_match": false,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Coursera",
+      "industry": "Education",
+      "company_file": "coursera.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "CVS Health",
+      "industry": "Healthcare",
+      "company_file": "cvs_health.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Document Processing"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Datadog",
+      "industry": "SaaS",
+      "company_file": "datadog.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "DB Schenker",
+      "industry": "Logistics",
+      "company_file": "db_schenker.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Deloitte",
+      "industry": "Not a Good Fit",
+      "company_file": "deloitte.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "DHL",
+      "industry": "Logistics",
+      "company_file": "dhl.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Duolingo",
+      "industry": "Education",
+      "company_file": "duolingo.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "edX",
+      "industry": "Education",
+      "company_file": "edx.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Knowledge Management / Internal Search",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "FedEx",
+      "industry": "Logistics",
+      "company_file": "fedex.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Ford",
+      "industry": "Manufacturing",
+      "company_file": "ford.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "General Electric",
+      "industry": "Manufacturing",
+      "company_file": "general_electric.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "GXO Logistics",
+      "industry": "Logistics",
+      "company_file": "gxo_logistics.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "HCA Healthcare",
+      "industry": "Healthcare",
+      "company_file": "hca_healthcare.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Hims & Hers Health",
+      "industry": "Healthcare",
+      "company_file": "hims_and_hers_health.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Document Processing"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Home Depot",
+      "industry": "Retail",
+      "company_file": "home_depot.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Honeywell",
+      "industry": "Manufacturing",
+      "company_file": "honeywell.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "HubSpot",
+      "industry": "SaaS",
+      "company_file": "hubspot.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "IKEA",
+      "industry": "Retail",
+      "company_file": "ikea.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Instructure",
+      "industry": "Education",
+      "company_file": "instructure.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Kaiser Permanente",
+      "industry": "Healthcare",
+      "company_file": "kaiser_permanente.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Khan Academy",
+      "industry": "Education",
+      "company_file": "khan_academy.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Knowledge Management / Internal Search",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Kuehne+Nagel",
+      "industry": "Logistics",
+      "company_file": "kuehne_nagel.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Lowe's",
+      "industry": "Retail",
+      "company_file": "lowe_s.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Macy's",
+      "industry": "Retail",
+      "company_file": "macy_s.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Maersk",
+      "industry": "Logistics",
+      "company_file": "maersk.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Mastercard",
+      "industry": "Financial Services",
+      "company_file": "mastercard.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Mayo Clinic",
+      "industry": "Healthcare",
+      "company_file": "mayo_clinic.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Mistral AI",
+      "industry": "Not a Good Fit",
+      "company_file": "mistral_ai.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "monday.com",
+      "industry": "SaaS",
+      "company_file": "monday_com.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Nike",
+      "industry": "Retail",
+      "company_file": "nike.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "OpenAI",
+      "industry": "Not a Good Fit",
+      "company_file": "openai.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "PayPal",
+      "industry": "Financial Services",
+      "company_file": "paypal.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Document Processing",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Pfizer",
+      "industry": "Healthcare",
+      "company_file": "pfizer.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Document Processing",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Quizlet",
+      "industry": "Education",
+      "company_file": "quizlet.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Robinhood",
+      "industry": "Financial Services",
+      "company_file": "robinhood.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Document Processing",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Rockwell Automation",
+      "industry": "Manufacturing",
+      "company_file": "rockwell_automation.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Ryder",
+      "industry": "Logistics",
+      "company_file": "ryder.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Salesforce",
+      "industry": "SaaS",
+      "company_file": "salesforce.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Schneider Electric",
+      "industry": "Manufacturing",
+      "company_file": "schneider_electric.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Sephora",
+      "industry": "Retail",
+      "company_file": "sephora.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Sequoia Capital",
+      "industry": "Not a Good Fit",
+      "company_file": "sequoia_capital.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "ServiceNow",
+      "industry": "SaaS",
+      "company_file": "servicenow.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Shopify",
+      "industry": "SaaS",
+      "company_file": "shopify.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Sales and Marketing Automation",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Siemens",
+      "industry": "Manufacturing",
+      "company_file": "siemens.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Skillsoft",
+      "industry": "Education",
+      "company_file": "skillsoft.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Knowledge Management / Internal Search",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Knowledge Management / Internal Search",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Snowflake",
+      "industry": "SaaS",
+      "company_file": "snowflake.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Customer Support Automation",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Stripe",
+      "industry": "Financial Services",
+      "company_file": "stripe.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Document Processing",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Target",
+      "industry": "Retail",
+      "company_file": "target.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Sales and Marketing Automation",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Teladoc Health",
+      "industry": "Healthcare",
+      "company_file": "teladoc_health.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Document Processing"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "Toyota",
+      "industry": "Manufacturing",
+      "company_file": "toyota.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Knowledge Management / Internal Search"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Udemy",
+      "industry": "Education",
+      "company_file": "udemy.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Sales and Marketing Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Mismatch",
+      "service_primary_match": false,
+      "service_acceptable_match": false
+    },
+    {
+      "company_name": "UnitedHealth Group",
+      "industry": "Healthcare",
+      "company_file": "unitedhealth_group.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Document Processing"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "UPS",
+      "industry": "Logistics",
+      "company_file": "ups.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Visa",
+      "industry": "Financial Services",
+      "company_file": "visa.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Walmart",
+      "industry": "Retail",
+      "company_file": "walmart.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Data Analytics / Business Intelligence",
+      "alternative_services": [
+        "AI Workflow Automation",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Wise",
+      "industry": "Financial Services",
+      "company_file": "wise.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Document Processing",
+        "AI Data Analytics / Business Intelligence"
+      ],
+      "recommended_service_predicted": "AI Data Analytics / Business Intelligence",
+      "service_match_type": "Alternative Match",
+      "service_primary_match": false,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "XPO",
+      "industry": "Logistics",
+      "company_file": "xpo.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Workflow Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Customer Support Automation"
+      ],
+      "recommended_service_predicted": "AI Workflow Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Y Combinator",
+      "industry": "Not a Good Fit",
+      "company_file": "y_combinator.json",
+      "fit_score_expected": "Low",
+      "fit_score_predicted": "Low",
+      "fit_score_match": true,
+      "recommended_service_expected": "Not a Good Fit",
+      "alternative_services": [],
+      "recommended_service_predicted": "Not a Good Fit",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Zendesk",
+      "industry": "SaaS",
+      "company_file": "zendesk.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Data Analytics / Business Intelligence",
+        "AI Workflow Automation"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    },
+    {
+      "company_name": "Zocdoc",
+      "industry": "Healthcare",
+      "company_file": "zocdoc.json",
+      "fit_score_expected": "High",
+      "fit_score_predicted": "High",
+      "fit_score_match": true,
+      "recommended_service_expected": "AI Customer Support Automation",
+      "alternative_services": [
+        "AI Knowledge Management / Internal Search",
+        "AI Document Processing"
+      ],
+      "recommended_service_predicted": "AI Customer Support Automation",
+      "service_match_type": "Primary Match",
+      "service_primary_match": true,
+      "service_acceptable_match": true
+    }
+  ]
+}
